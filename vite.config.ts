@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// IMPORTANT: Replace 'hadj-finance' with the exact name of your GitHub repository.
+// ⚠️ base './' fonctionne en local et sur GitHub Pages
 export default defineConfig({
   plugins: [react()],
-  base: '/hadj-finance/', 
+  base: './', // <-- change cette ligne
 })
